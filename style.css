@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(puket.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    font-size: 24px;
+    color:#fff;
+}
+
+h2{
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Estilo para o formulário */
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color:rgba(255, 105, 180, 0.429);
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os inputs */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 150px;
+}
+
+input[type="submit"] {
+    padding: 8px 15px;
+    background-color:hotpink;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color:hotpink;
+}
+
+/* Estilo para a lista de produtos */
+.lista-produtos {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
